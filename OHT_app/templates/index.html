@@ -1,0 +1,137 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Scrolling Nav - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/scrolling-nav.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">BEA Ontario Health Team</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Welcome to the BEA Ontario Health Team</h1>
+      <!-- <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p> -->
+      <div class="">
+        <img class="mt-4" src="{% static 'images/hospital_team.png' %}" width="600" alt="">
+
+      </div>
+    </div>
+  </header>
+
+<!-- about section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About Us</h2>
+          <p class="lead">The BRAMPTON/ETOBICOKE AND AREA ONTARIO HEALTH TEAM is a collaboration of health care organizations who have started to work together to improve the coordination of care among family physicians, hospitals, long term care facilities, and community care</p>
+          <p class="lead">The group came together to submit an application to become an Ontario Health Team. The official announcement of teams by the Ministry of Health and Long-Term Care will take place in the fall of 2019.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our team section -->
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Our Team</h2>
+          <p class="lead">Current members of the team include</p>
+          <ul>
+            <li>Region of Peel</li>
+            <li>William Osler Health System</li>
+            <li>Family Health Teams</li>
+            <li>And So Many More!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Our Approach to care section -->
+  <section id="about" class="bg-primary" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 style="color: #ffffff">Our Approach To Care</h2>
+          <p style="color: #ffffff" class="lead">The BEA Ontario Health Team is committed to creating a model of care to ensure there is a connected system of care for all health care providers and agencies in North Toronto. We will work together to ensure patients are accessing the right care when they need it</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">We want your input on how we can support caregivers to be active participants in managing their own health.</p>
+            <ul>
+              <li>What should we continue to do to support caregivers?</li>
+              <li>What should we do differently to support caregivers?</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; BEA Ontario Health Team</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="{% static 'js/scrolling-nav.js' %}"></script>
+
+</body>
+
+</html>
